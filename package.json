@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/your-repo-name.git"
+    "url": "https://github.com:sudokud/unocss-vite-remix.git"
   },
   "keywords": [
     "vitejs",
@@ -29,7 +29,7 @@
   ],
   "author": "Hamza chetoui <hamza@chetoui.dev>",
   "license": "MIT",
-  "homepage": "https://github.com/yourusername/your-repo-name#readme",
+  "homepage": "https://github.com:sudokud/unocss-vite-remix.git#readme",
   "dependencies": {
     "@remix-run/node": "^2.10.0",
     "@remix-run/react": "^2.10.0",
