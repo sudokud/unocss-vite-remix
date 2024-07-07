@@ -1,3 +1,5 @@
+import reset from "@unocss/reset/tailwind.css?url";
+import type { LinksFunction } from "@remix-run/node";
 import {
   Links,
   Meta,
@@ -5,8 +7,14 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import "./tailwind.css";
+import unocss from "~/styles/uno.css?url";
+import main from "~/styles/main.css?url";
 
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: reset },
+  { rel: "stylesheet", href: unocss },
+  { rel: "stylesheet", href: main },
+];
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">

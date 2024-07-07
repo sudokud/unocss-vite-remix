@@ -1,0 +1,11 @@
+.mesh {
+    background: linear-gradient(
+        135deg,
+        #e9bcf299 7%,
+        #f8b7c599,
+        #fec49a99,
+        #ffd49399,
+        #ffedbe99 80%,
+        #fff7e099
+    );
+}

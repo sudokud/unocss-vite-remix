@@ -1,40 +1,33 @@
-# Welcome to Remix!
+# Welcome
 
+### A template built with  unocss and remix within vitejs.
+
+it showcase some Unocss features.
+
+- 📖 [Vite docs](https://vitejs.dev/)
 - 📖 [Remix docs](https://remix.run/docs)
+- 📖 [Unocss docs](https://unocss.dev/)
 
 ## Development
 
 Run the dev server:
 
-```shellscript
+```bash
 npm run dev
+
 ```
 
-## Deployment
+run unocss engin to watch files changes
 
-First, build your app for production:
+```bash
+npm run unodev
 
-```sh
-npm run build
 ```
 
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+###
 
 ## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+This template comes with [Unocss](https://unocss.dev/) default preset equivalent to tailwindcss.
+
+You can use whateverPresets you prefer. See the [Unocss presets](https://unocss.dev/presets/) for more information.
